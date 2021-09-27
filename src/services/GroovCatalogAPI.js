@@ -6,7 +6,7 @@ export const fetchCatalog = async () => {
                     id: catalog.id,
                     Artist: catalog.artist,
                     Album: catalog.album,
-                    Released: catalog.re_year,
+                    Released: catalog.rel_year,
                     Label: catalog.label,
                 }))        
             )

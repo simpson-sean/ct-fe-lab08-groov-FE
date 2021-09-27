@@ -16,4 +16,11 @@ const Controls = ({}) => {
     )
 }
 
+// Controls.propTypes = {
+//     artist: PropTypes.string.isRequired,
+//     album: PropTypes.string.isRequired,
+//     rel_year: PropTypes.number.isRequired,
+//     label: PropTypes.string.isRequired,
+// }
+
 export default Controls;

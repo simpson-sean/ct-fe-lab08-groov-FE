@@ -1,5 +1,6 @@
 body {
-    background-color: cadetblue;
+    background-color:cadetblue;
+    color:yellow;
 }
 
 h1 {
@@ -8,4 +9,14 @@ h1 {
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: yellow;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    list-style-type: none;
+    margin: 2px;
+    
 }

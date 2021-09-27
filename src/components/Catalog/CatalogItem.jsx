@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../../css/header-style.css'
+//import styles from '../../css/header-style.css'
 
 const CatalogItem = ({ artist, album, rel_year, label }) => (
     <>

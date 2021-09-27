@@ -10,8 +10,11 @@ const Controls = ({}) => {
             <div><input type="text" placeholder="Release Year" aria-label="rel-year-input" name="release-year" /></div>
             <div><input type="text" placeholder="Label" aria-label="label-input" name="label" /></div>
         </form>
-        <button>Add!</button>
-    
+        <div className='control-buttons'>
+            <button>Add</button>
+            <button>Edit</button>
+            <button>Delete</button>
+        </div>
         </>
     )
 }

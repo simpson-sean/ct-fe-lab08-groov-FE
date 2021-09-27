@@ -12,9 +12,15 @@ export const fetchCatalog = async () => {
             )
 }
 
-// export const fetchCatalogBySearch = async (search) => {
-//     const res = await fetch(`https://someBackEndLinkHere`);
-//     const json = await res.json();
-
-//     return formatArticles(json);
-// }
+export const fetchCatalogItemById = async (id) => {
+    return fetch(`https://groov-be.herokuapp.com/api/v1/vinyl/${id}`)
+            .then((res) => res.json())
+            .then((catalog) => ({
+                id: catalog.id,
+                Artist: catalog.artist,
+                Album: catalog.album,
+                Released: catalog.rel_year,
+                Label: catalog.label,
+            }));
+    
+}

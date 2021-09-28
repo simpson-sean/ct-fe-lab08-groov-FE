@@ -12,8 +12,6 @@ const Controls = ({}) => {
         </form>
         <div className='control-buttons'>
             <button>Add</button>
-            <button>Edit</button>
-            <button>Delete</button>
         </div>
         </>
     )

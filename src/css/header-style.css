@@ -14,11 +14,13 @@ h1 {
 
 li {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid yellow;
     border-radius: 5px;
     list-style-type: none;
     margin: 10px;
     background-color:lightcyan;
     
+    
 }
+
